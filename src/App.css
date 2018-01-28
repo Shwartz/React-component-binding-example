@@ -1,3 +1,38 @@
 .App {
   margin: 16px;
 }
+
+.instructions {
+  margin-top: 24px;
+    border: 1px solid grey;
+}
+
+.done {
+    color: #ccc;
+}
+
+.UserOutput {
+    border: 1px solid grey;
+    padding: 8px;
+    margin: 8px;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 3px #ccc;
+}
+
+.UserOutput span {
+    background: yellow;
+}
+
+.UserInput {
+    padding: 4px;
+    margin: 8px;
+    width: auto;
+}
+
+.UserInput input {
+    min-width: 300px;
+    padding: 4px;
+    font-size: 16px;
+
+}
